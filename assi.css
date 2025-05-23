@@ -1,0 +1,36 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+        
+.wave-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.wave-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.benefit-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px -5px rgba(10, 61, 98, 0.2);
+}
+
+.faq-item {
+    border-bottom: 1px solid rgba(10, 61, 98, 0.2);
+}
+
+.faq-item:last-child {
+    border-bottom: none;
+}
